@@ -27,6 +27,24 @@ pip install -e .  # optional, if you need editable local imports
 - Images are assumed to be non-overlapping across fields; overlapping captures must be cropped before analysis.
 - Keep any human or animal identifiers out of file names to preserve anonymity.
 
+## Citation
+If this repository supports a manuscript or presentation, please cite it explicitly (update the date/version if you rely on a different snapshot).
+
+> Arthur Flam. (2025). *Laminin Analysis Notebook* (Version 0.1.0) [Computer software]. GitHub. https://github.com/arthur-flam/cell-staining-analysis. Accessed November 16, 2025.
+
+### BibTeX
+```
+@software{flam_laminin_analysis_2025,
+  author  = {Arthur Flam},
+  title   = {Laminin Analysis Notebook},
+  year    = {2025},
+  version = {0.1.0},
+  url     = {https://github.com/arthur-flam/cell-staining-analysis},
+  note    = {GP-16 astrocyte laminin quantification pipeline},
+  urldate = {2025-11-16}
+}
+```
+
 ## Personal license grant
 The copyright holder hereby grants **Elisa Gozlan** a perpetual, worldwide, non-transferable, non-sublicensable license to use, modify, and adapt this repository for her personal research work. No other party may exercise these rights without prior written authorization. Redistribution in any form requires explicit approval from the copyright holder.
 
