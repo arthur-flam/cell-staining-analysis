@@ -1,0 +1,27 @@
+[project]
+name = "laminin-analysis"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "cellpose>=4.0.4",
+    "fastremap>=1.16.1",
+    "huggingface-hub>=0.32.3",
+    "ipykernel>=6.29.5",
+    "matplotlib>=3.10.3",
+    "pandas>=2.2.3",
+    "scikit-image>=0.25.2",
+    "seaborn>=0.13.2",
+]
+
+
+# License for Elisa Gozlan
+#
+# This code is provided "as is", without warranty of any kind, express or implied.
+# The author takes no responsibility for any damage or loss resulting from its use.
+#
+# Permission is granted to Elisa Gozlan to use, modify, and adapt this code for personal
+# and non-commercial purposes only. This permission is strictly limited to her individual use
+# and does **not** extend to any third party, including her employer, academic lab, or collaborators.
+# Redistribution or publication of the code or derivatives is not permitted without explicit written consent.
